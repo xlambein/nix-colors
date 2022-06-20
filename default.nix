@@ -23,6 +23,7 @@ rec {
     # Alias
     colorscheme = colorScheme;
     default = colorScheme;
+    contrib = import ./module/contrib.nix;
   };
   homeManagerModule = homeManagerModules.colorScheme;
 }
